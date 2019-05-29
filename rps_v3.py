@@ -22,7 +22,6 @@ while player_wins < winning_score and computer_wins < winning_score:
         computer = "scissors"
     print(f"The computer plays: {computer}")
 
-
     # Refined Game Logic
     if p_choice == "rock" or p_choice == "paper" or p_choice == "scissors":
         if p_choice == computer:
@@ -57,3 +56,5 @@ elif player_wins == computer_wins:
     print("It's a Tie!")
 else:
     print("Oh No! The Computer is victorious!")
+
+
